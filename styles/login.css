@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+#page1 {
+    height: 100vh;
+    background-color: red;
+    background-image: url(../img/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: justify;
+}
+
+#page1 button {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#container {
+    display: flex;
+    padding-top: 110px;
+    text-align: center;
+}      
+      
+.login      {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;      
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.158);
+    box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#email, #password {
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.5),
+    inset -2px -2px 5px 0px rgba(255, 255, 255, 0.2);
+}
+      
+.title {
+    margin-bottom: 80px;
+    font-family: Pacifico;
+    font-size: 80px;
+}                            

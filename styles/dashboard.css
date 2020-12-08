@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.logo {
+    font-family: Pacifico;
+    font-size: 3rem;
+}
+
+#menulateral {
+    background-image: linear-gradient(rgb(209, 209, 209), rgba(255, 255, 255, 0.158));
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#menulateral button {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5),
+    -1px -1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#titlemenulateral {
+    color:rgb(71, 71, 71);
+    font-size: 1.2rem;
+}
+
+.botaotarefas {
+    width: 100%;
+    margin: 12px;
+}
+
+li :hover {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#cabeçalho {
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dataHoje {
+    color: rgb(71, 71, 71);
+}
+
+.cardDash {
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 5px 30px 5px 5px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardDash:hover {
+    transform: scale(1.07);
+}
+
+.cardDash img {
+    margin-top: 20px;
+}
+
+#nomeuser {
+    margin-left: 20px;
+}
+
+#windowModal {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5),
+    0 0 0 0.5px rgba(0, 0, 0, 0.1)
+
+}
+
+.cabeçalho {
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5),
+    0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
